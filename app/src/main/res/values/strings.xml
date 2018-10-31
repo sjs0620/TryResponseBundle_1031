@@ -8,7 +8,7 @@
     <string name="editTextSecond">save Value</string>
     <string name="buttonSecond">Second Button</string>
     <string name="textView2Result">Return Values</string>
-    <string name="textView3Title">Third Activity</string>
+    <string name="textView3Title">Third Activity(Main)</string>
     <string name="editTextThird">save Value</string>
     <string name="buttonThird">Third Button</string>
 </resources>

@@ -39,9 +39,9 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         TextView textViewResult = findViewById(R.id.textView2Result);
-        if(data.hasExtra("resultValue")){
-            if(resultCode == 2){
-                textViewResult.setText(data.getStringExtra("resultValue"));
+        if(data.hasExtra("singleName")){
+            if(requestCode == 2){
+                textViewResult.setText(data.getStringExtra("singleName"));
             }
         }
     }

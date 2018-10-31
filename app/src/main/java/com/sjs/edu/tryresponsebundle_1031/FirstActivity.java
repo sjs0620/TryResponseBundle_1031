@@ -34,7 +34,7 @@ public class FirstActivity extends AppCompatActivity implements View.OnClickList
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         if(data.hasExtra("resultValue")){
-            if(resultCode == 1 ) {
+            if(requestCode == 1) {
                 TextView textViewResult = findViewById(R.id.textView1Result);
                 textViewResult.setText(data.getStringExtra("resultValue"));
             }
