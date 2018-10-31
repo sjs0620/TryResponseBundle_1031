@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">TryResponseBundle_1031</string>
+    <string name="textView1Title">First Activity</string>
+    <string name="editTextFirst">save Value</string>
+    <string name="buttonFirst">First Button</string>
+    <string name="textView1Result">Result Values</string>
+    <string name="textView2Title">Second Activity</string>
+    <string name="editTextSecond">save Value</string>
+    <string name="buttonSecond">Second Button</string>
+    <string name="textView2Result">Return Values</string>
+    <string name="textView3Title">Third Activity</string>
+    <string name="editTextThird">save Value</string>
+    <string name="buttonThird">Third Button</string>
+</resources>
